@@ -1,0 +1,16 @@
+let nombre = "Antonio";
+let apellido = "Ruiz";
+let estudiante = nombre + " " + apellido;
+console.log(estudiante);
+let estudianteMayus = estudiante.toLowerCase();
+console.log(estudianteMayus);
+let estudianteMinus = estudiante.toUpperCase;
+let longitud = estudiante.length;
+let primera = nombre.charAt(0);
+console.log(primera);
+let ultima = apellido.charAt(3);
+console.log(ultima);
+let espacios = estudiante.replace(' ', '');
+console.log(estudiante);
+let incluido = estudiante.includes("Antonio");
+console.log(incluido);
